@@ -99,7 +99,7 @@ if __name__ == "__main__":
     main_engine.write_log("connect binance future gateway") # future
     main_engine.write_log("connect binance inverse gateway")  # inverse
     gate_way = main_engine.get_gateway("BINANCE")  # spot
-    # gate_way = main_engine.get_gateway("BINANCES")  # future
+    # gate_way = main_engine.get_gateway("BINANCES")  # 00future
     print(gate_way)
 
     symbol = "btcusdt"  # spot for lower case while the future will be upper case.
